@@ -2,11 +2,62 @@
 <html lang="en">
     <head>
         <title>Search</title>
+	<style>
+		div {
+    			display: block;
+    			margin-top: 15%;
+  			margin-right: auto;
+    			margin-bottom: auto;
+    			margin-left: auto;
+		}
+		img{
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+			width: 15%;
+			
+		}
+		#bar{
+			display: flex;
+			border-radius: 25px;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			width: 30%;
+			height: 25px;
+			border: 2px solid #B8B8B8;
+			
+		}
+		.tus{
+			display: flex;
+			border-radius: 25px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 10%;
+			
+		}
+		.tus2{
+			display: flex;
+			flex-direction: row;
+			border: none;
+			background-color: white;
+		}
+	</style>
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+	<form action="index1.html">
+		<input class="tus2" type="submit" value="Google images">
+	</form>
+	<form action="index2.html">
+		<input class="tus2" type="submit" value="Advenced search">
+	</form>
+	<div>
+		<img src="ggl.jpg">
+	       	<form action="https://google.com/search">
+       		    <input id="bar" type="text" name="q">
+       		    <input class="tus" type="submit" value="Google Search">
+        	</form>
+	</div>
     </body>
 </html>
